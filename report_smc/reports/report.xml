@@ -19,7 +19,7 @@
     <report
         id="report_quotation_smc"
         model="sale.order"
-        string="SMC Report"
+        string="SO Img With Discount"
         report_type="qweb-pdf"
         name="report_smc.quotation_smc_report"
         file="report_smc.quotation_smc_report"
@@ -28,7 +28,7 @@
     <report
         id="report_quotation_smc_without_discount"
         model="sale.order"
-        string="SMC Report without Discount"
+        string="SO with Img W/O discount"
         report_type="qweb-pdf"
         name="report_smc.quotation_smc_report_without_dis"
         file="report_smc.quotation_smc_report_without_dis"
