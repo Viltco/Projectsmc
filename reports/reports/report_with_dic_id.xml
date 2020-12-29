@@ -163,7 +163,7 @@
                                                     <!--                                                    <span t-field="line.price_subtotal"/>-->
                                                 </td>
                                                 <td class="div_tb" style="padding:0px; height:0%">
-                                                    <span t-field="line.discount"></span>
+                                                    <span t-field="line.discount" t-options='{"widget": "float", "precision": 2}'></span>
 
                                                 </td>
                                             </t>
