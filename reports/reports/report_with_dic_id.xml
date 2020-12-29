@@ -236,7 +236,7 @@
                                     </div>
                                     <div class="col-3  border-bottom" style="margin-top:-10px;">
                                         <p style="text-align:right; font-weight:bold;">
-                                            <span t-field="o.amount_discount"/>
+                                            <span t-field="o.amount_discount" t-options='{"widget": "float", "precision": 2}'/>
                                         </p>
                                     </div>
                                 </div>
